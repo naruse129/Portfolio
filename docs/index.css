@@ -1,28 +1,355 @@
 nav {
     width: 100%;
-    height: 70px;
-    background-color: darkgray;
+    height: 100px;
+    background-color: rgb(197, 197, 197);
     padding-top: 5px;
     box-sizing: border-box;
+    text-align: right;
   }
   ul.menu {
     display: flex;
+    text-align: right;
   }
   li.menu {
     list-style: none;
+    text-align: right;
   }
+
+  .textme{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
   a {
     display: block;
     text-decoration: none;
     color: white;
     margin-right: 35px;
+    text-align: center;
   }
 
   footer{
     text-align: center;
   }
 
-  i {
-    font-size: 30px;
+  h3{
+    font-size: 40px;
+    text-align: center;
   }
+
+a{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: gray;
+}    
+
+/* ul {
+    display: flex;
+    justify-content: center;
+  }  */
+
+  li {
+    list-style: none;
+    text-align: center;
+  }
+
+  li:nth-child(2) {
+    margin: 0 10px;
+  }
+
+li{
+    text-align: center;
+    font-size: medium;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+b{
+    font-size: large;
+}
+
+.about{
+    font-size: 20px;
+    text-align: right;
+    font: aliceblue;
+    position: absolute;
+    right: 225px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.skill{
+    font-size: 20px;
+    text-align: right;
+    font: white;
+    position: absolute;
+    right: 165px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.works{
+    font-size: 20px;
+    text-align: right;
+    font: aliceblue;
+    position: absolute;
+    right: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.contact{
+    font-size: 20px;
+    text-align: right;
+    font: aliceblue;
+    position: absolute;
+    right: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.name{
+    font-size: 40px;
+    color:rgb(248, 239, 239);
+    font-weight: 200;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Portfolio{
+    color: rgb(115, 115, 115);
+    position: absolute;
+    left: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Aboutbig{
+    font-size: 50px;
+    font-weight: 300;
+    border-bottom: solid 3px black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Skillbig{
+    font-size: 50px;
+    font-weight: 300;
+    border-bottom: solid 3px black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Worksbig{
+    font-size: 50px;
+    font-weight: 300;
+    border-bottom: solid 3px black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Contactbig{
+    font-size: 20px;
+    font-weight: 300;
+    border-bottom: solid 2px black;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.works1{
+    display: flex;
+    align-items: stretch;
+    padding-left: 70px;
+    padding-right: 70px;
     
+}
+
+.works2{
+    display: flex;
+    align-items: stretch;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.works3{
+    display: flex;
+    align-items: stretch;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.works4{
+    display: flex;
+    align-items: stretch;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.Intern{
+    font-weight: 300;
+    border-bottom: solid 2px black;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.emox{
+    padding: 10px;
+    background: #dbe4e7;
+    align-items: stretch;
+    /* box-sizing: border-box; */
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.GPS{
+    padding: 10px;
+    background: #f9f1e6;
+    align-items: stretch;
+    box-sizing: border-box;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.divemox{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
+
+.divGPS{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
+
+
+.ktl{
+    padding: 10px;
+    background: #b7c3df;
+    align-items: stretch;
+    /* box-sizing: border-box; */
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.dmai{
+    padding: 10px;
+    background: #c9d6e2;
+    align-items: stretch;
+    box-sizing: border-box;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.divktl{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
+
+.divdmai{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
+
+.nora{
+    padding: 10px;
+    background: #dddbd2;
+    align-items: stretch;
+    /* box-sizing: border-box; */
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.senmon3{
+    padding: 10px;
+    background: #cddcce;
+    align-items: stretch;
+    box-sizing: border-box;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.divnora{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
+
+.divsenmon3{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
+
+.aialigo{
+    padding: 10px;
+    background: #f5eaea;
+    align-items: stretch;
+    box-sizing: border-box;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.huku{
+    padding: 10px;
+    background: #f0f1da;
+    align-items: stretch;
+    box-sizing: border-box;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.divaialigo{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
+
+.divhuku{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    align-items: stretch;
+}
